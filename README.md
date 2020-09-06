@@ -72,5 +72,3 @@ npm install
 
 Run the client & server
 npm start
-
-## FAQ
