@@ -1,5 +1,5 @@
 const csvjson = require('csvjson');
-const { writeToLocalCache, readLoadCache, lastModifiedDate } = require('../fs');
+const { writeToLocalCache, readLoadCache } = require('../fs');
 const axios = require('axios');
 
 const getNums = (req, res, next) => {

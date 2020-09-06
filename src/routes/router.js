@@ -1,7 +1,6 @@
 const express = require('express');
 const axios = require('axios');
 const router = express.Router();
-const { writeToLocalCache, readLoadCache, lastModifiedDate } = require('../fs');
 
 const { getNums } = require('../controllers/nums');
 
