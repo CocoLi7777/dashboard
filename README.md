@@ -1,4 +1,4 @@
-# Dynamic Data Dashboard
+# COVID-19 Data Dashboard
 
 ## Content
 
@@ -8,7 +8,10 @@
   - [Information displayed](#information-displayed)
   - [Highlights](#highlights)
   - [Performance Optimization](#performance-optimization)
-  - [Run locally](#run-locally)
+- [Prerequisites](#prerequisites)
+- [Quick Start](#quick-start)
+- [Running locally](#running-locally)
+
 - [FAQ](faq)
   ​
 
@@ -24,7 +27,7 @@ The tasks are:
 
 ## Live Demo
 
-This application is deployed to Heroku, here is the [link](https://c19-trending.herokuapp.com/)
+This application is deployed to Heroku, here is the [link](https://c19-update.herokuapp.com//)
 ​
 
 ## Details:
@@ -38,21 +41,33 @@ This application is deployed to Heroku, here is the [link](https://c19-trending.
 
 ### Highlights
 
-- Vanila JavaScript instead of framework to reduce the script size and for the performance.
+- Vanila JavaScript in the front-end instead of framework to reduce the script size and for the performance.
 - Getting data from third-party API service and updating dashboard automatically.
 - Using [csvjson](https://csvjson.com/) to convert data formats.
 - Using [Chart.js](https://www.chartjs.org/) to visualize the data.
 - Responsive UI using [Bulma](https://bulma.io/), mobile friendly.
 - Date format and timezone using [Momont](https://momentjs.com/).
+- Loading animation solution using only HTML & CSS.
 - Setup Continuous Deployment using Github and [Heroku](https://www.heroku.com/), having continuously improvement to the application.
 
 ### Performance Optimization
 
 ​
 
-### Run locally
+## Prerequisites
 
-Pure front-end application with vanilla JavaScript, no need to setup the server, any http server can host the application or it can be run directly in browser.
-For local development, recommend [VSCode Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+1. Node.js - Download and Install Node.js. You can also follow this gist for a quick and easy way to install Node.js and npm
+
+2. NPM - Install NPM for all dependencies both in server and client.
+
+## Quick Start
+
+Install dependencies for server
+npm install
+
+## Running locally
+
+Run the client & server
+npm start
 
 ## FAQ
