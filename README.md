@@ -63,10 +63,10 @@ user experience.
 
 ## Quick Start
 
-Install dependencies for server
+Install dependencies for server :
 npm install
 
 ## Running locally
 
-Run the client & server
+Run the client & server :
 npm start
