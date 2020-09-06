@@ -11,8 +11,6 @@
 - [Prerequisites](#prerequisites)
 - [Quick Start](#quick-start)
 - [Running locally](#running-locally)
-
-- [FAQ](faq)
   ​
 
 ## Introduction
