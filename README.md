@@ -7,7 +7,7 @@
 - [Details](#details)
   - [Information displayed](#information-displayed)
   - [Highlights](#highlights)
-  - [Performance Optimization](#performance-optimization)
+  - [What's still going on...](#what's-still-going-on...)
 - [Prerequisites](#prerequisites)
 - [Quick Start](#quick-start)
 - [Running locally](#running-locally)
@@ -50,7 +50,10 @@ This application is deployed to Heroku, here is the [link](https://c19-update.he
 - Loading animation solution using only HTML & CSS.
 - Setup Continuous Deployment using Github and [Heroku](https://www.heroku.com/), having continuously improvement to the application.
 
-### Performance Optimization
+### What's still going on...
+
+I'm creating local file system cache just in case the third-party API failure. This is back-up plan for better
+user experience.
 
 ​
 
