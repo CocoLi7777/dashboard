@@ -10,7 +10,7 @@ This application is deployed to Heroku, here is the [link](https://c19-trending.
 
 ## Content
 
-[Information displayed](### Information displayed)
+[link](#information displayed)
 
 ## Details:
 
