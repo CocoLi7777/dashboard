@@ -1,6 +1,8 @@
 const csvjson = require('csvjson');
 const { writeToLocalCache, readLoadCache } = require('../fs');
 const axios = require('axios');
+var MY_SLACK_WEBHOOK_URL = process.env.WEBHOOK;
+var slack = require('slack-notify')(MY_SLACK_WEBHOOK_URL);
 
 const getNums = (req, res, next) => {
   res.setHeader('Content-Type', 'application/json');
@@ -54,8 +56,8 @@ const getNums = (req, res, next) => {
       res.status(200).json({ VIC: sumPerMonthVIC, WA: sumPerMonthWA });
     })
     .catch((error) => {
-      //slack.alert(JSON.stringify(error));
-      next(error);
+      slack.alert(JSON.stringify(error));
+
       var callback = (jsonData) => {
         res.send(JSON.parse(jsonData));
       };
