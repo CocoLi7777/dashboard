@@ -25,7 +25,7 @@ The tasks are:
 
 ## Live Demo
 
-This application is deployed to Heroku, here is the [link](https://c19-update.herokuapp.com//)
+This application is deployed to Heroku, here is the [link](https://c19-recovery.herokuapp.com/)
 ​
 
 ## Details:
